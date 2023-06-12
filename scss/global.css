@@ -112,9 +112,14 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
-@media (max-width: 280px) {
+@media (max-width: 380px) {
   .header .text-box h1 {
     font-size: 42px;
+  }
+}
+@media (max-width: 280px) {
+  .header .text-box h1 {
+    font-size: 38px;
   }
 }
 .header .text-box p {
@@ -164,6 +169,11 @@ a {
 @media (max-width: 714px) {
   .header nav img {
     width: 120px;
+  }
+}
+@media (max-width: 400px) {
+  .header nav img {
+    width: 110px;
   }
 }
 .header nav .menu {

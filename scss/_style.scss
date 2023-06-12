@@ -18,9 +18,12 @@
         h1 {
             font-size: 62px;
             font-family: 'Poppins', sans-serif;
-            font-weight: bolder;  
-            @media(max-width: 280px){
+            font-weight: bolder; 
+            @media(max-width: 380px){
                 font-size: 42px;
+            } 
+            @media(max-width: 280px){
+                font-size: 38px;
             } 
         }
         p {
@@ -69,6 +72,9 @@
             width: 150px;
             @media(max-width: 714px){
                 width: 120px;
+            }
+            @media(max-width: 400px){
+                width: 110px;
             }
         }
         .menu {
