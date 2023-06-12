@@ -412,7 +412,7 @@ a {
   font-weight: bolder;
   font-weight: 600;
 }
-@media (max-width: 340px) {
+@media (max-width: 375px) {
   .testimonials h2 {
     font-size: 42px;
   }
