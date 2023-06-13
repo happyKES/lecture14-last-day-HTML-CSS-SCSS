@@ -681,11 +681,31 @@ a {
 }
 
 .aboutus {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   text-align: left;
   padding-top: 100px;
   display: block;
+}
+@media (max-width: 1200px) {
+  .aboutus {
+    width: 40%;
+  }
+}
+@media (max-width: 1000px) {
+  .aboutus {
+    width: 35%;
+  }
+}
+@media (max-width: 907px) {
+  .aboutus {
+    width: 34%;
+  }
+}
+@media (max-width: 899px) {
+  .aboutus {
+    width: 80%;
+  }
 }
 .aboutus .row {
   margin-top: 5%;
@@ -697,9 +717,14 @@ a {
   width: 60%;
   border-radius: 15px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   .aboutus .row img {
     width: 100%;
+  }
+}
+@media (max-width: 899px) {
+  .aboutus .row img {
+    margin-top: 30px;
   }
 }
 .aboutus .row .aboutus-col {
