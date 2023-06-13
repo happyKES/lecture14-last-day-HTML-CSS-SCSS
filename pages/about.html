@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../scss/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Lecture 14 Web design For Geolab</title>
+        <link rel="icon" type="image/x-icon" href="./img/Geolab-01.svg">
+    </head>
+    <body>
+        <!------------header------------>
+        <section class="aboutheader">
+            <nav>
+                <a href="https://geolab.edu.ge/"><img src="../img/Geolab-01.svg" alt="logo"></a>
+                <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="pages/about.html">ABOUT</a></li>
+                        <li><a href="pages/course.html">COURSE</a></li>
+                        <li><a href="pages/blog.html">BLOG</a></li>
+                        <li><a href="pages/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>About Us</h1>
+            </div>
+        </section>
+
+<!-- ------------------ABOUT US---------------- -->
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutus-col"> 
+                <h2>GEOLAB Are The World's Best Programming School</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae quo iste voluptates consectetur alias, quibusdam laborum praesentium in? Ullam, delectus assumenda. Nisi nihil esse ex velit quidem repellendus hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore ratione corrupti in sunt explicabo ad temporibus cum maiores nemo animi quae perspiciatis dignissimos ducimus omnis voluptas vero, rerum ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore sunt sit fugiat officiis soluta nobis iste dignissimos maiores provident quis autem aliquid aliquam cupiditate nisi, velit dolorem, reprehenderit expedita saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eveniet reiciendis, voluptas et laborum doloribus obcaecati reprehenderit quaerat qui delectus placeat, minima laboriosam magni pariatur. Voluptas porro quibusdam quo! Repellendus?</p>
+                <!-- <div class="EXPOLER"> -->
+                <a href="#" class="more-btn">EXPOLER NOW</a>
+                <!-- </div> -->
+            </div>
+            <img src="../img/about.jpg" alt="about">
+        </div>
+    </div>
+
+    <!-- ---------------FOOTER-------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam, nulla maxime assumenda repellendus obcaecati adipisci dolor autem consectetur eaque sed! <br> Asperiores voluptate accusamus, pariatur eos sequi debitis ea animi?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-google"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> For You <i class="fa fa-copyright"></i> Levan Pkhaladze</p>
+    </section>
+
+
+
+    <!----------JavaScript for Toogle Menu----------->
+     <script>
+        var menu = document.getElementById("menu");
+        function showMenu(){
+            menu.style.right = "0";
+        }
+        function hideMenu(){
+            menu.style.right = "-200px";
+        }
+     </script>
+    </body>
+</html>
