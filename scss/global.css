@@ -370,6 +370,16 @@ a {
     font-size: 13px;
   }
 }
+@media (max-width: 520px) {
+  .contact2 .content p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 430px) {
+  .contact2 .content p {
+    font-size: 10px;
+  }
+}
 .contact2 .container {
   width: 100%;
   display: flex;
@@ -424,6 +434,12 @@ a {
   font-weight: 300;
   cursor: pointer;
 }
+@media (max-width: 430px) {
+  .contact2 .container .contactinfo .box .text {
+    width: 200px;
+    margin-left: 120px;
+  }
+}
 .contact2 .container .contactinfo .box .text h3 {
   color: #fff;
   font-size: 20px;
@@ -472,6 +488,16 @@ a {
 @media (max-width: 900px) {
   .contact2 .container .contactform .inputbox {
     width: 300px;
+  }
+}
+@media (max-width: 470px) {
+  .contact2 .container .contactform .inputbox {
+    width: 250px;
+  }
+}
+@media (max-width: 380px) {
+  .contact2 .container .contactform .inputbox {
+    width: 180px;
   }
 }
 .contact2 .container .contactform .inputbox ::-moz-placeholder {
