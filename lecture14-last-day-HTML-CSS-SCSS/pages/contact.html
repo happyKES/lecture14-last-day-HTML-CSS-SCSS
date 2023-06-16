@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../scss/global.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Lecture 14 Web design For Geolab</title>
+        <link rel="icon" type="image/x-icon" href="../img/Geolab-01.svg">
+    </head>
+    <body>
+<!------------header------------>
+        <section class="aboutheader">
+            <nav>
+                <a href="https://geolab.edu.ge/"><img src="../img/Geolab-01.svg" alt="logo"></a>
+                <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+<!------------COURSE----------->
+
+        <section class="google-maps">
+            <h2>School Maps</h2>
+            <p>The best school in the whole world</p>
+            <div class="row">
+                <div class="google-maps-col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.1185671194326!2d44.78205877748933!3d41.71796027125988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d4fa5b02d7%3A0xced15c2c7992ceb5!2sGeoLab!5e0!3m2!1ska!2sge!4v1686747686370!5m2!1ska!2sge" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </section>
+
+
+<!-----------CONTACT----------->
+        <section class="contact2">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Connect with the best school in the world</p>
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-home"></i></div>
+                        <div class="text">
+                            <h3>Georgia, Tbilisi</h3>
+                            <p>10 Merab Aleksidze Street, Tbilisi 0193</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <div class="text">
+                            <h3>+ 995 577 67 04 04</h3>
+                            <p>Open 24 hours a day</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                        <div class="text">
+                            <h3>info@geolab.edu.ge</h3>
+                            <p>Email us your query</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form action="https://formsubmit.co/857a49208a070e841272785b88f2e4d7" method="POST">
+                        <h2>Send Message</h2>
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://happykes.github.io/lecture14-last-day-HTML-CSS-SCSS/pages/contact.html">
+                        <div class="inputbox">
+                            <input type="text" name="Name" required="required" placeholder="Name">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="Last&nbsp;Name" required="required" placeholder="Surname">
+                        </div>
+                        <div class="inputbox">
+                            <input type="number" name="Phone&nbsp;Number" required="required" placeholder="Phone Number (123456789)">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="Email" required="required" placeholder="Email address...">
+                        </div>
+                        <div class="inputbox">
+                                <select id="country" name="country">
+                                    <option value="georgia">Georgia</option>
+                                    <option value="italy">Italy</option>
+                                    <option value="German">German</option>
+                                    <option value="ukraine">Ukraine</option>
+                                    <option value="france">France</option>
+                                    <option value="belgium">Belgium</option>
+                                    <option value="sweden">Sweden</option>
+                                    <option value="norway">Norway</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="greece">Greece</option>
+                                    <option value="poland">Poland</option>
+                                    <option value="australia">Australia</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                        </div>
+                        <div class="inputbox">
+                            <textarea required="required" name="Questions" placeholder="Type Your Text..."></textarea>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+<!-- ---------------FOOTER-------------- -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam, nulla maxime assumenda repellendus obcaecati adipisci dolor autem consectetur eaque sed! <br> Asperiores voluptate accusamus, pariatur eos sequi debitis ea animi?</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-google"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> For You <i class="fa fa-copyright"></i> Levan Pkhaladze</p>
+        </section>
+
+    <!----------JavaScript for Toogle Menu----------->
+     <script>
+        var menu = document.getElementById("menu");
+        function showMenu(){
+            menu.style.right = "0";
+        }
+        function hideMenu(){
+            menu.style.right = "-200px";
+        }
+     </script>   
+    </body>
+</html>

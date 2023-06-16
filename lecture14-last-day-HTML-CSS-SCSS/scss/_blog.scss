@@ -1,0 +1,44 @@
+.blogs{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+
+    .blogs-row {
+        margin-top: 5%;
+        display: block;
+        margin-left: 10%;
+    }
+
+    .blogs-col{
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        cursor: pointer;
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+            @media(max-width: 340px){
+                height: 200px;
+            }
+        }
+        h3{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            text-align: left;
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            font-weight: 600;
+        }
+        p{
+            width: 100%;
+            margin-top: 16px;
+            margin-bottom: 15px;
+            text-align: left;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            color: #9b9b9b;
+        }
+    }
+}
